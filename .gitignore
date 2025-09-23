@@ -39,3 +39,19 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+*.suo
+*.ncd
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+*.idb
+*.ipch
+*.aps
+
