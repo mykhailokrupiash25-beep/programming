@@ -4,10 +4,18 @@ using namespace std;
 int main() {
     int i = 12;
     double a, b, c, d, e;
-    cout << "Введіть значення a, b, c, d, e через пробіл: ";
-    cin >> a >> b >> c >> d >> e;
+    cout << "write a";
+    cin >> a;
+    cout << "write b";
+    cin >> b;
+    cout << "write c";
+    cin >> c;
+    cout << "write d";
+    cin >> d;
+    cout << "write e";
+    cin >> e;
     if (fabs(b + 7) <= 0 || i + 1 == 1) {
-        cout << "Помилка: некоректні значення для логарифму." << endl;
+        cout << "error" << endl;
         return 1;
     }
     double fi = tan(i + a) - log(fabs(b + 7)) / log(i + 1); 
@@ -21,6 +29,6 @@ int main() {
         x = omega;
         y = fabs(cos(pow(x, 2) - 0.51)) * sin(3 * x - 4) - 4.44;
     }
-    cout << "Результат y = " << y << endl;
+    cout << "y = " << y << endl;
     return 0;
 }
