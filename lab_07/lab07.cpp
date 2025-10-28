@@ -19,7 +19,7 @@ int main(){
         }
     }
     file.close();
-    cout << "number operation" << count << endl;
+    cout << "number operation " << count << endl;
 
     return 0;
 }
