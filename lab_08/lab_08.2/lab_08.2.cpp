@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Функція, яка виводить символ задану кількість разів
 void PrintSymbol(char symbol, int count) {
     if (count == 0) {
         cout << "number = 0 error" << endl;
@@ -13,7 +11,6 @@ void PrintSymbol(char symbol, int count) {
     }
     cout << endl;
 }
-
 int main() {
     char ch;
     int num;
