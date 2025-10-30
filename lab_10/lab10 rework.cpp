@@ -64,7 +64,7 @@ int main() {
     cout << "Enter crew, passengers, closet weight, baggage weight, and fuel (gallons): ";
     cin >> crew >> passengers >> closet >> baggage >> fuel;
 
-    if (crew < 0 || passengers < 0 || closet < 0 || baggage < 0 || fuel < 0 || fuel > 565) {
+    if (passengers < 0 || crew < 0 || baggage < 0 || closet < 0 || fuel < 0 || fuel > 565 || closet > 160 || crew > 2) {
         cout << "Error: Invalid input!" << endl;
         return 1;
     }
